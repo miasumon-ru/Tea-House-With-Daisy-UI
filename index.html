@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House With Daisy UI</title>
+
+    <!-- Tailwind + Daisy UI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+    <!-- Customization  -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/2142466c30.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body class="font-manrope">
+    <header>
+
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+
+                <div>
+                    <h1 class=" text-3xl lg:text-7xl font-extrabold">It's good <br>
+                        tea time at The
+                        <br>
+                        Tea House
+                    </h1>
+
+                    <p class="py-6 font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                        Taste Buds.
+
+                    </p>
+
+                    <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">Explore
+                        More</button>
+                </div>
+
+                <div class="relative">
+                    <img src="./images/banner.png" class=" rounded-lg" />
+                    <div class="w-[255px] bg-[#FFF] rounded-lg flex items-center gap-3 shadow-lg p-4 mt absolute -mt-10 lg:-mt-20 lg:ml-20">
+
+                        <i class="fa-solid fa-star text-5xl text-amber-300"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
